@@ -1,5 +1,5 @@
-CREATE USER 'root'@'%' IDENTIFIED BY '';
-GRANT ALL PRIVILEGES ON *.* to 'root'@'%';
+CREATE USER 'lab5user'@'%' IDENTIFIED BY 'lab5';
+GRANT ALL PRIVILEGES ON *.* to 'lab5user'@'%';
 
 CREATE DATABASE Lab5; 
 USE Lab5;
