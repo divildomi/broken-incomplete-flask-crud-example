@@ -1,8 +1,8 @@
-CREATE USER 'A'@'%' IDENTIFIED BY 'B';
-GRANT ALL PRIVILEGES ON *.* to 'A'@'%';
+CREATE USER 'root'@'%' IDENTIFIED BY '';
+GRANT ALL PRIVILEGES ON *.* to 'root'@'%';
 
-CREATE DATABASE student; 
-USE student;
+CREATE DATABASE Lab5; 
+USE Lab5;
 CREATE TABLE students (studentName VARCHAR(255), email VARCHAR(255), studentID INT NOT NULL AUTO_INCREMENT,
 PRIMARY KEY(studentID));
 
